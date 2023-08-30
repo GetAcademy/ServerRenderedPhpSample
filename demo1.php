@@ -17,6 +17,8 @@
     </form>
     <?php
         var_dump($_POST);
+        echo $_GET["name"];
+        echo $_POST["name"];
     ?>    
 </body>
 </html>
